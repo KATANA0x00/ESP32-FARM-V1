@@ -1,0 +1,20 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "Temperature": {
+      "type": "number"
+    },
+    "Humidity": {
+      "type": "number"
+    },
+    "SoilMoisture": {
+      "type": "number"
+    },
+    "WindSpeed": {
+      "type": "number"
+    },
+    "WindDirect": {
+      "type": "string"
+    }
+  }
+}
