@@ -2,18 +2,43 @@
   "additionalProperties": false,
   "properties": {
     "Temperature": {
+      "operation":{
+        "store":{
+          "ttl":"30d"
+        }
+      },
       "type": "number"
     },
     "Humidity": {
+      "operation":{
+        "store":{
+          "ttl":"30d"
+        }
+      },
       "type": "number"
     },
     "SoilMoisture": {
+      "operation":{
+        "store":{
+          "ttl":"30d"
+        }
+      },
       "type": "number"
     },
     "WindSpeed": {
+      "operation":{
+        "store":{
+          "ttl":"30d"
+        }
+      },
       "type": "number"
     },
     "WindDirect": {
+      "operation":{
+        "store":{
+          "ttl":"30d"
+        }
+      },
       "type": "string"
     }
   }
