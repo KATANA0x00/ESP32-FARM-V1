@@ -1,5 +1,5 @@
 {
-  "body": "message=Soil Moisture is too much !!, NOW is {{context.soilmoisture}}",
+  "body": "message={{context.msg}} {{context.Humidity}}",
   "header": {
     "Authorization": "Bearer {{context.linetoken}}",
     "Content-Type": "application/x-www-form-urlencoded"
